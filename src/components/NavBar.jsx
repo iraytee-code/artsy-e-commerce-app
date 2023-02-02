@@ -3,7 +3,7 @@ import HamburgerIcon from "./icons/HamburgerIcon";
 import MobileHamburger from "./icons/MobileHamburger";
 import BrandLogo from "./icons/BrandLogo";
 import ChatIcon from "./icons/ChatIcon";
-import Logo from "../assets/images/ARTSY.png";
+import Logo from "../assets/images/navImages/ARTSY.png";
 import BranLogoWeb from "./icons/BranLogoWeb";
 import SearchIcon from "./icons/SearchIcon";
 import CartIcon from "./icons/CartIcon";
