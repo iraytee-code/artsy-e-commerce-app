@@ -1,0 +1,73 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #292929;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .nav {
+    @apply mr-[47px] last:mr-0 text-2xl leading-8 inline-block;
+  }
+  .active {
+    @apply font-medium underline;
+  }
+  .rounded-btn {
+    @apply flex items-center justify-center bg-white/[0.2] h-[69.71px] w-[69.71px] rounded-full backdrop-blur-[7.77035px];
+  }
+  .cart-btn {
+    @apply text-[#888888] text-lg pb-2 border-b-[0.5px] border-b-[#747474]  w-1/3;
+  }
+  .active-cart-btn {
+    @apply border-b-[#2F4333] border-b-2 text-[#292929] font-medium;
+  }
+  .inputStyle {
+    @apply text-grey-light focus:outline-0 bg-[#F2F2F2] border  border-[#747474] rounded-[10px] py-3 px-5 mt-2 w-full;
+  }
+  .blurBox {
+    @apply h-[35px] w-[35px] rounded-full blur-[12.5px] -z-10 absolute;
+  }
+  .mobile-nav {
+    @apply text-[1.5rem] leading-[52px]  font-medium my-[9px] cursor-pointer;
+  }
+}
+
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.view-overlay:hover div {
+  opacity: 1;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    99.99deg,
+    #4693ed -26.21%,
+    #79c2d2 22.16%,
+    rgba(192, 86, 9, 0.49) 111.62%
+  );
+}
+
+.w-0 {
+  width: 0 !important;
+}
