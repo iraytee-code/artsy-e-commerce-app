@@ -12,7 +12,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: #292929;
-  background-color: #fff;
+  background-color: #ffffff;
   scroll-behavior: smooth;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,6 +48,10 @@
   }
   .mobile-nav {
     @apply text-[1.5rem] leading-[52px]  font-medium my-[9px] cursor-pointer;
+  }
+
+  .w-0 {
+    @apply w-full !important;
   }
 }
 

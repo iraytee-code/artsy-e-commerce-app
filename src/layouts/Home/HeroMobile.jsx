@@ -1,7 +1,7 @@
 import React from "react";
-import imageOne from "../assets/images/mobileHero/image1.png";
-import imageTwo from "../assets/images/mobileHero/image2.png";
-import imageThree from "../assets/images/mobileHero/image3.png";
+import imageOne from "../../assets/images/mobileHero/image1.png";
+import imageTwo from "../../assets/images/mobileHero/image2.png";
+import imageThree from "../../assets/images/mobileHero/image3.png";
 
 const HeroMobile = () => {
   return (

@@ -8,13 +8,14 @@ import BranLogoWeb from "./icons/BranLogoWeb";
 import SearchIcon from "./icons/SearchIcon";
 import CartIcon from "./icons/CartIcon";
 import BellIcon from "./icons/BellIcon";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const mobileNav = useRef();
 
   let navLinks = [
     { name: "Home", link: "/", id: "home" },
-    { name: "Marketplace", link: "/", id: "marketplace" },
+    { name: "Marketplace", link: "marketplace", id: "marketplace" },
     { name: "Auctions", link: "/", id: "auctions" },
     { name: "Drop", link: "/", id: "drop" },
   ];
@@ -47,7 +48,7 @@ function NavBar() {
         <ul className="px-[30px]">
           {navLinks?.map((link) => (
             <li key={link.name} className="mobile-nav">
-              <div to={link.link}>{link.name}</div>
+              <Link to={link.link}>{link.name}</Link>
             </li>
           ))}
         </ul>
@@ -67,7 +68,7 @@ function NavBar() {
                     className="nav cursor-pointer"
                     onClick={() => switchActive(`${link.id}`)}
                   >
-                    <div to={link.link}>{link.name}</div>
+                    <Link to={link.link}>{link.name}</Link>
                   </li>
                 ))}
               </ul>

@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
-
-import Banner from "../layouts/Banner";
-import HeroCarousel from "../layouts/HeroCarousel";
-import HeroMobile from "../layouts/HeroMobile";
-import FeaturedProducts from "../layouts/FeaturedProducts";
-import Upcoming from "../layouts/Upcoming";
-import Explore from "../layouts/Explore";
-import Creators from "../layouts/Creators";
-import NewsLetter from "../layouts/NewsLetter";
-import Footer from "../layouts/Footer";
+import Banner from "../layouts/Home/Banner";
+import HeroCarousel from "../layouts/Home/HeroCarousel";
+import HeroMobile from "../layouts/Home/HeroMobile";
+import FeaturedProducts from "../layouts/Home/FeaturedProducts";
+import Upcoming from "../layouts/Home/Upcoming";
+import Explore from "../layouts/Home/Explore";
+import Creators from "../layouts/Home/Creators";
+import NewsLetter from "../layouts/Home/NewsLetter";
+import Footer from "../layouts/Home/Footer";
 const Home = () => {
   return (
     <Fragment>

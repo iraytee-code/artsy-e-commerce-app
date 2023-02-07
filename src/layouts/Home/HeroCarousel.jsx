@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import image1 from "../assets/images/sliderImages/picture1.png";
-import image2 from "../assets/images/sliderImages/picture2.png";
-import image3 from "../assets/images/sliderImages/picture3.png";
-import image4 from "../assets/images/sliderImages/picture4.png";
-import image5 from "../assets/images/sliderImages/picture5.png";
+import image1 from "../../assets/images/sliderImages/picture1.png";
+import image2 from "../../assets/images/sliderImages/picture2.png";
+import image3 from "../../assets/images/sliderImages/picture3.png";
+import image4 from "../../assets/images/sliderImages/picture4.png";
+import image5 from "../../assets/images/sliderImages/picture5.png";
 const HeroCarousel = () => {
   // diplay all the images in a state and setit into an array
   const [images, setImages] = useState([

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Featured from "../components/Featured";
-import featured1 from "../assets/images/featured/Featured-product-1.png";
-import featured2 from "../assets/images/featured/Featured-product-2.png";
-import featured3 from "../assets/images/featured/Featured-product-3.png";
+import Featured from "../../components/Featured";
+import featured1 from "../../assets/images/featured/Featured-product-1.png";
+import featured2 from "../../assets/images/featured/Featured-product-2.png";
+import featured3 from "../../assets/images/featured/Featured-product-3.png";
 
 const FeaturedProducts = () => {
   return (

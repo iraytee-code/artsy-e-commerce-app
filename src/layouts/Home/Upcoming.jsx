@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/images/upcoming-image.jpg";
+import image from "../../assets/images/upcoming-image.jpg";
 import { Link } from "react-router-dom";
 
 const Upcoming = () => {
@@ -49,7 +49,7 @@ const Upcoming = () => {
             </Link>
           </div>
         </div>
-        <div className="flex items-center justify-between mt-[21px] hidden md:flex">
+        <div className="flex items-center justify-between mt-[21px]  md:flex">
           <div className="w-[295.69px] rounded-full h-2.5 bg-[#AEAEAE] overflow-hidden">
             <div className="w-1/5 h-full bg-white rounded-full"></div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import FadeIn from "../components/FadeIn";
+import FadeIn from "../../components/FadeIn";
 
 const Creators = () => {
   return (
@@ -11,7 +11,7 @@ const Creators = () => {
               TOP CREATORS OF THE WEEK
             </h2>
             <div className="flex">
-              <div className="hidden md:block rounded-full w-2.5 bg-[#AEAEAE] border mr-[34px] overflow-hidden flex items-end">
+              <div className=" md:block rounded-full w-2.5 bg-[#AEAEAE] border mr-[34px] overflow-hidden flex items-end">
                 <div className="w-full h-1/5 bg-grey-dark rounded-full"></div>
               </div>
               <ul className="absolute -right-24 md:relative md:right-0  text-grey text-[10px] md:text-[2.5rem] leading-[155%] mr-8 flex md:block gap-4">
