@@ -7,7 +7,7 @@ const ProductsPage = () => {
   const { products } = useContext(Context);
   const [showMore, setShowMore] = useState(false);
 
-  const productItems = products.map((item, index) => {
+  const productItems = products?.map((item, index) => {
     if (index <= 8) {
       return (
         <ProductItem
@@ -20,7 +20,7 @@ const ProductsPage = () => {
       );
     }
   });
-  const allProductItems = products.map((item) => {
+  const allProductItems = products?.map((item) => {
     return (
       <ProductItem
         id={item.id}

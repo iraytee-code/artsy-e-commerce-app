@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
 import HamburgerIcon from "./icons/HamburgerIcon";
 import MobileHamburger from "./icons/MobileHamburger";
 import BrandLogo from "./icons/BrandLogo";
@@ -12,11 +12,10 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   const mobileNav = useRef();
-
   let navLinks = [
     { name: "Home", link: "/", id: "home" },
     { name: "Marketplace", link: "marketplace", id: "marketplace" },
-    { name: "Auctions", link: "/", id: "auctions" },
+    { name: "Auctions", link: "auctions", id: "auctions" },
     { name: "Drop", link: "/", id: "drop" },
   ];
 
