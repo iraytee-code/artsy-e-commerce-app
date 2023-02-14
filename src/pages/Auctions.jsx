@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import AuctionProduct from "../layouts/Auctions/AuctionProduct";
-import TopBids from "./TopBids";
+import TopBids from "../components/Auctions/TopBids";
 import { toTitleCase } from "../utils/toTitleCase";
-import bids from "./bids";
-import Transitions from "../../components/transition/Transition";
-import Livebid from "../livebid/Livebid";
-import { Context } from "../../Context";
+import bids from "../data/bids";
+import Transitions from "../utils/Transitions";
+import Livebid from "../components/Auctions/Livebid";
+import { Context } from "../Context";
 
 function Auctions() {
   const { url } = useContext(Context);
