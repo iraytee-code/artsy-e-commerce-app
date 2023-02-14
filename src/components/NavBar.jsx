@@ -16,7 +16,7 @@ function NavBar() {
     { name: "Home", link: "/", id: "home" },
     { name: "Marketplace", link: "marketplace", id: "marketplace" },
     { name: "Auctions", link: "auctions", id: "auctions" },
-    { name: "Drop", link: "/", id: "drop" },
+    { name: "Drop", link: "/drop", id: "drop" },
   ];
 
   const switchActive = (id) => {

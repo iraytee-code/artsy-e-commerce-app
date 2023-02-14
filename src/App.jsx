@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import MarketPlace from "./pages/MarketPlace";
 import Auctions from "./pages/Auctions";
+import Drop from "./pages/Drop";
 import { ContextProvider } from "./Context";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/marketplace" element={<MarketPlace />} />
           <Route path="/auctions" element={<Auctions />} />
+          <Route path="/drop" element={<Drop />} />
         </Routes>
       </ContextProvider>
     </Fragment>
