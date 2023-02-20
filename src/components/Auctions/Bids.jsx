@@ -8,9 +8,9 @@ function Bids({ img, name, text }) {
           <img src={img} alt="" />
         </div>
       </div>
-      <article className="flex flex-col justify-between text-white md:text-grey text-[13px] md:text-lg">
+      <article className="flex flex-col justify-between text-black md:text-grey text-[13px] md:text-lg">
         <h5>{name}</h5>
-        <p className="font-medium">{text}</p>
+        <p className="font-medium text-black">{text}</p>
       </article>
     </div>
   );

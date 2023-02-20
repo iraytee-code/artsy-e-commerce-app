@@ -5,6 +5,7 @@ import Newsletter from "../layouts/Home/NewsLetter";
 import Transitions from "../utils/Transitions";
 import DropItem from "../components/Drop/DropItem";
 import drops from "../data/drops";
+import Button from "../components/Buttons/Button";
 
 function Drop() {
   // Map through drop items
@@ -36,15 +37,11 @@ function Drop() {
               <p className="text-xl text-[#616161] leading-[200%]">
                 Turn on notification so that no drop will miss you
               </p>
-              <button className="h-[3.5rem] w-full md:w-fit rounded-[10px] border text-black border-black font-medium text-xl leading-[160%] px-12 hover:bg-blue hover:border-0 hover:text-white">
-                Notify Me
-              </button>
+              <Button title="Notify Me" />
             </section>
             <section className="md:my-16">
               {dropItems}
-              <button className="hidden md:block border border-grey rounded-[10px] h-[3.5rem] px-10 mx-auto block text-grey font-medium text-xl">
-                See more
-              </button>
+              <Button title="See more" />
             </section>
             <Newsletter />
             <Footer />

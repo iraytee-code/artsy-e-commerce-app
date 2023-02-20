@@ -118,7 +118,7 @@ function Bidders({ classes }) {
           <div className="w-[29px] md:h-[3.5rem] h-[29px] md:w-[3.5rem] bg-white/[0.35] md:border rounded-full border-black flex items-center justify-center">
             <svg
               onClick={like}
-              className="h-5 w-5 md:w-[40px] md:h-[33px]"
+              className="h-5 w-5 md:w-[40px] md:h-[33px] "
               width="40"
               height="33"
               viewBox="0 0 40 33"

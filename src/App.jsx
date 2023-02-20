@@ -6,7 +6,10 @@ import NavBar from "./components/NavBar";
 import MarketPlace from "./pages/MarketPlace";
 import Auctions from "./pages/Auctions";
 import Drop from "./pages/Drop";
+import ProductItem from "./pages/ProductItem";
 import { ContextProvider } from "./Context";
+import Cart from "./pages/Cart";
+import CartShippingDetails from "./pages/CartShippingDetails";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route path="/marketplace" element={<MarketPlace />} />
           <Route path="/auctions" element={<Auctions />} />
           <Route path="/drop" element={<Drop />} />
+          <Route path="/marketplace/:productId" element={<ProductItem />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/shipping-details" element={<CartShippingDetails />} />
         </Routes>
       </ContextProvider>
     </Fragment>

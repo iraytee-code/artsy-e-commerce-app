@@ -3,7 +3,6 @@ import React, { Fragment } from "react";
 const CheckBox = ({ id, title }) => {
   return (
     <Fragment>
-      {" "}
       <div className="text-lg text-grey-dark">
         <input
           type="checkbox"
