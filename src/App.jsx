@@ -10,6 +10,8 @@ import ProductItem from "./pages/ProductItem";
 import { ContextProvider } from "./Context";
 import Cart from "./pages/Cart";
 import CartShippingDetails from "./pages/CartShippingDetails";
+import PaymentCheckout from "./pages/PaymentCheckout";
+import Confirmation from "./pages/Confirmation";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/marketplace/:productId" element={<ProductItem />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/shipping-details" element={<CartShippingDetails />} />
+          <Route path="/checkout" element={<PaymentCheckout />} />
+          <Route path="/checkout-success" element={<Confirmation />} />
         </Routes>
       </ContextProvider>
     </Fragment>

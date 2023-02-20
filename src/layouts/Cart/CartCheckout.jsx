@@ -116,7 +116,7 @@ function CartCheckout({ hidden, width }) {
           </button>
           <button
             onClick={confirmCartRemove}
-            className="bg-grey-dark text-white h-[3.5rem] px-8 flex items-center flex items-center justify-center"
+            className="bg-grey-dark text-red-500 h-[3.5rem] px-8 flex items-center flex items-center justify-center"
           >
             REMOVE ITEM
           </button>
@@ -144,7 +144,7 @@ function CartCheckout({ hidden, width }) {
               className={`flex flex-col justify-center item-center mx-12 md:mx-0 md:w-2/5 md: md:pr-24 ${hidden}`}
             >
               <Link to="/shipping-details">
-                <button className="bg-blue h-[3.5rem] w-full md:px-8 text-xl mb-5 font-medium text-white block mx-auto">
+                <button className="bg-blue h-[3.5rem] w-full md:px-8 text-xl mb-5 font-medium text-green-500 block mx-auto">
                   Proceed to checkout
                 </button>
               </Link>

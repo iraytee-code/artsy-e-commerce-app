@@ -486,7 +486,7 @@ function CartShippingDetails() {
               placeholder="08123456785"
             />
           </InputWrapper>
-          <button className="block w-full bg-blue text-xl text-white mt-8 h-[3.5rem]">
+          <button className="block w-full bg-blue text-xl text-green-500 mt-8 h-[3.5rem]">
             Proceed to payment
           </button>
           <Link to="/cart" className="md:hidden">
